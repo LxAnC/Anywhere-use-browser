@@ -1,0 +1,44 @@
+# Mini Browser for Work - Python Dependencies
+
+# ==================================================
+# 核心框架 / Core Framework
+# ==================================================
+PySide6=6.8.2
+
+# ==================================================
+# 可选依赖 / Optional Dependencies
+# ==================================================
+# 如果需要打包成 exe，请安装以下工具
+# For packaging into executable, install:
+# pyinstaller>=6.0.0
+
+# ==================================================
+# 安装说明 / Installation Instructions
+# ==================================================
+# 方式 1：直接安装所有依赖
+# Method 1: Install all dependencies
+#   pip install -r requirements.txt
+
+# 方式 2：使用清华镜像加速（推荐国内用户）
+# Method 2: Use Tsinghua mirror (Recommended for China)
+#   pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+# 方式 3：在虚拟环境中安装
+# Method 3: Install in virtual environment
+#   python -m venv venv
+#   source venv/bin/activate  # Linux/Mac
+#   venv\Scripts\activate     # Windows
+#   pip install -r requirements.txt
+
+# ==================================================
+# 系统要求 / System Requirements
+# ==================================================
+# Python: 3.8+
+# 操作系统 / OS: Windows 10+, macOS 10.14+, Linux
+# 推荐 / Recommended: Windows 10/11
+
+# ==================================================
+# 版本说明 / Version Notes
+# ==================================================
+# PySide6 6.6.0+ 提供了更好的 WebEngine 支持和性能优化
+# PySide6 6.6.0+ provides better WebEngine support and performance
